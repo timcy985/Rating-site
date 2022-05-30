@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: calibri;
+  outline: none;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(216, 12%, 8%);                       
+}
+.box{
+    width: 410px;
+    height: 415px;
+    background-color: hsl(213, 19%, 18%);  
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+    outline: none;
+    
+}
+.circle{
+  margin: 30px ;
+  margin-right: 60px; 
+}
+.star{
+  border-radius: 60px;
+  height: 55px;
+  width: 54px;
+  background-color:hsl(213, 19%, 20%);
+  outline: none;
+  object-fit: cover;
+  border: none;
+
+}
+.How h1{
+  color: #fff;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+.content p{
+  color: hsl(217, 12%, 64%);
+  margin-left: 35px;
+}
+ .rating_icons{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+} 
+ .rate_num:hover{
+  background: hsl(25, 97%, 53%);
+  transition: all 0.3s ease;
+}  
+ a:active {
+  background-color: #7c8799;
+  color: white;
+}
+
+.rate_num{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 60px;
+  height: 55px;
+  width: 55px;
+  background-color:hsl(213, 19%, 20%);
+  outline: none;
+  object-fit: cover;
+  border: none;
+  cursor: pointer;
+} 
+
+
+.main_btn{
+  border:none;
+  border-radius: 100px;
+  background-color: hsl(25, 97%, 53%);
+  margin-top: 2rem;
+ cursor: pointer;
+ position: relative;
+ outline: none;
+ margin-left: 30px;
+ width: 85%;
+ height: 10%;
+}
+.main_btn:hover{
+  background-color: black;
+  transition: all 0.3s ease;
+  color:  hsl(25, 97%, 53%);
+}
+.main_btn a{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+  color: #fff;
+  font-size: 20px;
+}
+.image{
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.second_btn{
+  border-radius: 60px;
+  width: 56%;
+  height: 8%;
+  border:none;
+  margin-left: 91px;
+  margin-top: 2rem;
+  background-color:hsl(213, 19%, 22%);
+}
+.second_btn a{
+  position: relative;
+  text-decoration: none;
+  color: hsl(25, 97%, 53%);
+  z-index: 2;
+  font-size: 15px;
+}
+.message h1{
+  color: #fff;
+  margin-left: 140px;
+  margin-top: 29px;
+}
+
+  
+
+
